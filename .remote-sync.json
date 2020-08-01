@@ -1,0 +1,14 @@
+{
+ "transport": "scp",
+ "hostname": "52.71.177.236",
+ "uploadOnSave": true,
+ "port": 22,
+ "username": "root",
+ "keyfile": "/Users/rengonca/.ssh/renato.pem",
+ "target": "/root/learning-kubernetes",
+ "ignore": [
+ ".svn/**",
+ ".remote-sync.json",
+ ".git/**"
+ ]
+}
